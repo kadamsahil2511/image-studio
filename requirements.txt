@@ -1,0 +1,16 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+Flask>=3.0.0
+transformers>=4.45.0
+torch>=2.4.0
+accelerate>=0.34.0
+python-dotenv>=1.0.1
+pillow>=10.4.0
+diffusers>=0.31.0
+sentencepiece
+protobuf>=4.25.0
+langchain
+pydantic-ai
+
+# CUDA-only extra; skip on Apple Silicon / CPU-only machines.
+# bitsandbytes>=0.44.0
